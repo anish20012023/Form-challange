@@ -135,3 +135,187 @@ button {
     color: rgb(63, 207, 120);
     cursor: pointer;
 }
+
+@media screen and (max-width:480px) and (min-width:375px) {
+    html {
+        font-size: 45%;
+    }
+
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+
+    }
+
+    .form-container {
+        height: 95%;
+        gap: 3rem;
+
+    }
+
+    .form-container h1 {
+        font-size: 5.5rem;
+    }
+
+    form {
+        width: 100%;
+        height: 100%;
+    }
+
+    #para1 {
+        font-size: 2.5rem;
+        font-family: 'Montserrat';
+        color: rgb(165, 83, 216);
+
+    }
+
+    .form-wrap {
+        gap: 2rem;
+
+
+    }
+
+    label {
+        font-size: 2.2rem;
+
+    }
+
+    input {
+        height: 5rem;
+        font-size: 2.1rem;
+        padding-left: .8rem;
+
+    }
+
+    #login-para {
+        color: rgb(88, 85, 85);
+        height: calc(100vh - 95%);
+        background-color: rgb(255, 255, 255);
+        font-size: 1.7rem !important;
+
+
+    }
+
+    button {
+
+        height: 5rem;
+        font-size: 2.1rem;
+    }
+
+    #term-para {
+        text-align: center;
+        font-size: 1.8rem;
+
+    }
+   
+    
+
+
+
+    #login-para {
+        font-size: 2rem !important;
+        font-weight: bold;
+
+    }
+
+    #login-span {
+        color: rgb(63, 207, 120);
+        cursor: pointer;
+        font-size: 2rem;
+
+    }
+
+
+
+}
+
+
+@media screen and (max-width:374px) {
+    html {
+        font-size: 45%;
+
+    }
+
+    body {
+        background-color: #385285;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+
+    }
+
+    .form-container {
+        background-color: white;
+        height: 95%;
+        gap: 1.2rem;
+    }
+
+    .form-container h1 {
+        font-size: 3.5rem;
+       
+       
+    }
+    form {
+        justify-content: space-around; }
+     #para1 {
+        font-size: 1.7rem;
+       color: rgb(165, 83, 216);
+
+    }
+ .form-wrap {
+        gap:1rem;
+    }
+
+    label {
+        font-size: 1.7rem;
+
+    }
+
+    input {
+        height: 4.5rem;
+        padding-left: 1rem;
+        font-size: 1.6rem;
+
+    }
+
+    #login-para {
+        color: rgb(0, 0, 0);
+        height: calc(100vh - 95%);
+        background-color: rgb(255, 255, 255);
+        font-size: 1.7rem !important;
+    }
+
+    button {
+        height: 4.5rem;
+        font-size: 1.8rem;
+    }
+
+    #term-para {
+        font-size: 1.3rem;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #term-span {
+        cursor: pointer;
+        color: rgb(215, 10, 215);
+    }
+
+    #login-para {
+        font-size: 1rem;
+        font-weight: bold;
+
+    }
+
+    #login-span {
+        color: rgb(63, 207, 120);
+        cursor: pointer;
+    }
+
+
+}
