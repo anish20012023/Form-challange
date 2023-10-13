@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    background-color: #385285;
+}
+
+.container {
+    width: 24%;
+    height: 85vh;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.form-container {
+    background-color: white;
+    display: flex;
+    height: 95%;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem;
+
+
+}
+
+.form-container h1 {
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+
+}
+
+
+
+form {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+
+}
+
+#para1 {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+
+}
+
+.form-wrap {
+
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    font-weight: bold;
+
+
+}
+
+label {
+    font-size: 1.2rem;
+    color: rgb(83, 83, 83);
+
+}
+
+input {
+    height: 2.8rem;
+    border: .1rem solid rgb(138, 141, 138);
+    border-radius: .5rem;
+    padding-left: .5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+input:focus {
+    outline: none;
+
+
+}
+
+#login-para {
+    color: white;
+    height: calc(85vh - 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    background-color: rgb(63, 207, 120);
+    border: none;
+    height: 2.8rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#term-para {
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+#term-span {
+    cursor: pointer;
+    color: rgb(215, 10, 215);
+}
+
+#login-para {
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+#login-span {
+    color: rgb(63, 207, 120);
+    cursor: pointer;
+}
