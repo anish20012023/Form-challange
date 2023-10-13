@@ -14,24 +14,25 @@
             <form >
                <div class="form-wrap">
                 <label for="fname">First Name</label>
-                <input type="text" id="fname"  >
+                <input type="text" id="fname" name="fname" >
                </div>
                <div class="form-wrap">
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname">
+                <input type="text" id="lname" name="fname">
                </div>
                <div class="form-wrap">
                 <label for="email">Email</label>
-                <input type="text" id="email" >
+                <input type="email" id="email" name="email"  required>
                </div>
                <div class="form-wrap">
                 <label for="pswd">Password</label>
-                <input type="text" id="pswd" >
+                <input type="password" id="pswd" name="password" >
                </div>
                <div class="form-wrap">
                 <label for="cn-pswd">Confirm Password</label>
-                <input type="text" id="cn-pswd">
+                <input type="password" id="cn-pswd" name="password">
                </div>
+               <button type="reset" style="background-color: rgb(241, 97, 97);">Reset</button>
                <button type="submit">Sign Up</button>
             </form>
             <p id="term-para">By clicking the sign up button.You agree to our <span id="term-span">Terms &amp; Conditions</span> and <span id="term-span">Privacy Policy</span></p>
